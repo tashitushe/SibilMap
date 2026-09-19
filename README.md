@@ -4,6 +4,8 @@ A personal map-poster studio. Search any place, pick a palette, tune the layers 
 
 Inspired by Terraink.
 
+**Live demo:** [farnoud.net/map](https://farnoud.net/map)
+
 ## Run
 
 ```bash
