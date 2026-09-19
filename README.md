@@ -1,4 +1,4 @@
-# SibiMap
+# SibilMap
 
 A personal map-poster studio. Search any place, pick a palette, tune the layers and typography, and export a print-ready PNG.
 

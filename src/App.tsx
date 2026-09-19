@@ -128,7 +128,7 @@ export default function App() {
       const blob = await exportPoster(cfg, size, view, res.w);
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
-      a.download = `sibimap-${cfg.city.toLowerCase().replace(/\s+/g, "-") || "poster"}-${size.id}.png`;
+      a.download = `sibilmap-${cfg.city.toLowerCase().replace(/\s+/g, "-") || "poster"}-${size.id}.png`;
       a.click();
       setMsg("Saved ✓");
     } catch (e) {
@@ -151,7 +151,7 @@ export default function App() {
   return (
     <div className="app">
       <aside className="panel">
-        <h1>SibiMap<small>map poster studio</small></h1>
+        <h1>SibilMap<small>map poster studio</small></h1>
 
         <label>Find a place
           <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search a city, region or landmark…" />
