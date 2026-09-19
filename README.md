@@ -20,3 +20,7 @@ npm run build
 ## Notes
 - Map data © OpenStreetMap contributors, vector tiles via OpenFreeMap, search via Nominatim (respect its usage policy).
 - The preview is a fixed 1000 px-wide logical poster scaled to fit; export re-renders the same view at 2000/3000/4500 px.
+
+## License
+
+MIT © Farnoud Najari — see [LICENSE](./LICENSE).
